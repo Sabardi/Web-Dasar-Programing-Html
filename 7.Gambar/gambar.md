@@ -22,6 +22,7 @@ Contohnya, jika kita tetap memaksa untuk menentukan ukuran panjang dan lebar seb
 <img src="https://raw.githubusercontent.com/dicodingacademy/BelajarDasarPemrogramanWeb/099-shared-files/dicoding-logo.png" alt="Logo Dicoding" width="500px" height="200px">
 
 Hasilnya berikut.
+
 ![Alt text](image-3.png)
 
 Dengan menetapkan hanya satu atribut ukurannya, maka ukuran lainnya akan mengikuti sesuai dengan rasio gambar aslinya. Contohnya, kita bisa menetapkan ukuran gambar berdasarkan nilai lebarnya saja.
