@@ -6,11 +6,14 @@ Pada HTML untuk menampilkan sebuah gambar kita bisa menggunakan tag <img>. Berbe
 # Jenis format gambar
 Berikut adalah jenis format gambar yang umum digunakan pada pembuatan website
 ![Alt text](image.png)
+
 ![Alt text](image-1.png)
 
 # Mengatur Ukuran pada Gambar
 Untuk mengatur ukuran gambar yang ditampilkan, kita juga tentunya menggunakan sebuah atribut. Untuk menentukan lebar gambar, kita gunakan atribut width, dan untuk menentukan tinggi tentu gunakan atribut height.
+
 ![Alt text](image-2.png)
+
 Ketika menggunakan atribut ini, disarankan hanya gunakan salah satunya. Terkecuali kita menentukan nilai lebar dan tingginya sesuai dengan rasio dari ukuran gambar aslinya. 
 
 Contohnya, jika kita tetap memaksa untuk menentukan ukuran panjang dan lebar sebuah gambar tanpa menyesuaikan rasionya, gambar yang ditampilkan tidak akan proporsional.
@@ -25,9 +28,14 @@ Dengan menetapkan hanya satu atribut ukurannya, maka ukuran lainnya akan mengiku
 
 <!-- Menetapkan ukuran gambar berdasarkan lebar -->
 <img src="https://raw.githubusercontent.com/dicodingacademy/BelajarDasarPemrogramanWeb/099-shared-files/dicoding-logo.png" alt="Logo Dicoding" width="500px">
+
 ![Alt text](image-4.png)
 
+
+
 Opsi lainnya, kita juga bisa tetapkan ukuran gambar berdasarkan tingginya. Dengan begitu nilai lebar akan menyesuaikan nilainya berdasarkan rasio gambar aslinya
+
 <!-- Menetapkan ukuran gambar berdasarkan tinggi -->
 <img src="https://raw.githubusercontent.com/dicodingacademy/BelajarDasarPemrogramanWeb/099-shared-files/dicoding-logo.png" alt="Logo Dicoding" height="100px">
+
 ![Alt text](image-5.png)
