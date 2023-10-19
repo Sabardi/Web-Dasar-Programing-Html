@@ -276,4 +276,22 @@ Jadi, seluruh konten yang berada pada elemen <div> memiliki struktur seperti ber
 
 5. Mantap! Konten sudah terstruktur dengan lebih baik. Jika penasaran, kamu dapat menjalankan halaman ini jika ingin melihat hasilnya. Namun, tidak ada perubahan yang terlihat pada tampilannya. Nah, kamu bisa mencoba melihatnya pada Inspect Element pada tab Browser.
 
+6. Itulah yang telah kita lakukan sampai langkah ini. Setelah penggolongan konten dilakukan, ada hal yang dapat kita tingkatkan. Sebelumnya, kita sudah menetapkan atribut id pada elemen <h2> sebagai target navigasi. Kita perlu memindahkan penamaan atau pemberian atribut id dari masing-masing elemen <h2> ke elemen <article>. Hal ini karena elemen <article> lebih merepresentasikan keseluruhan dari konten artikelnya.
 
+Sebelum melakukannya, kita juga akan menambahkan atribut id pada elemen <div> sebagai pembungkus konten utama. Hal ini ditujukan untuk mempermudah proses layouting (penataan elemen) dengan styling.
+
+Silakan sesuaikan kodenya dengan kode bercetak tebal berikut.
+cek kode nya di [Title](latihan3.html)
+
+7. Sip! Kita sudah selesai dengan elemen <div> yang sekarang memiliki atribut id. Sekarang, kita beralih ke elemen <aside>. Konten dalam elemen ini tidak terlalu kompleks dan banyak seperti elemen <div id="content">. Jadi, kita cukup mengelompokkannya dengan satu elemen <article> saat ini.
+
+Silakan sesuaikan kode dalam elemen <aside> menjadi seperti kode berikut.
+
+![Alt text](image-4.png)
+
+8. 
+Sekarang, konten sudah terorganisasi dengan baik. Sampai sejauh ini, seharusnya struktur pada elemen <main> akan tampak seperti diagram berikut.
+
+![Alt text](image-5.png)
+
+Demikianlah latihan kita kali ini. Bagaimana hasilnya? Dokumen HTML kita semakin terstruktur dan rapi, kan? Selain mempermudah pemahaman bagi developer lain, browser juga memahami konten yang ditampilkan. Efeknya, screen reader pun dapat memberi tahu ke user terkait konten yang ada dengan baik. Nice!
