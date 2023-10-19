@@ -16,3 +16,4 @@ elemen <span>, elemen ini memberikan manfaat yang sama seperti <div>, bedanya el
 Mari kita ambil contoh. Tidak ada elemen pada inline element yang memiliki arti untuk menampung sebuah informasi telepon. Oleh karena itu, tiap item pada nomor telepon bisa ditampung dalam elemen <span> dan diklasifikasikan (menggunakan atribut class) dengan nilai “phone”.
 
 kode nya [Title](Span.html)
+
