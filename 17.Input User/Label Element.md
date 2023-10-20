@@ -1,0 +1,26 @@
+# Pembuatan elemen input sudah umum jika dijajarkan dengan elemen label. Ada banyak sekali keuntungan jika memberikan keterangan–dengan kata lain, kita bisa menyebutnya caption–pada masing-masing elemen input. Tidak hanya elemen input, elemen lainnya seperti textarea juga perlu disandingkan dengan elemen label.
+
+Beberapa keuntungan penerapan label untuk elemen input sebagai berikut.
+
+* Elemen input yang berasosiasi dengan elemen label akan memberikan kemampuan bagi screen reader untuk menjelaskan fungsi dari elemen input tersebut. Dalam hal ini, ia akan meningkatkan aksesibilitas. Tentunya, ini akan sangat bermanfaat bagi penyandang disabilitas.
+* Memberikan kemampuan bagi browser untuk mengalihkan langsung pada elemen input saat elemen label yang berasosiasi dengannya ditekan atau klik.
+
+Ada dua langkah untuk menghubungkan elemen label dan input. Pertama, menambahkan atribut id pada elemen input beserta value-nya. Kedua, menambahkan atribut for pada elemen label dan value-nya. Apakah sudah selesai sampai sini? Jawabannya, belum. Kita perlu memberikan value yang sama pada kedua atribut (id dan for). Dengan cara ini, elemen label akan berasosiasi dengan elemen input dan kita akan mendapatkan dua keuntungan yang telah dibahas sebelumnya.
+
+Perhatikan contoh kode berikut.
+
+<div>
+  <label for="email">Email</label>
+  <br>
+  <input type="email" id="email" />
+</div>
+
+<div>
+  <label for="password">Password</label>
+  <br>
+  <input type="password" id="password" />
+</div>
+
+Pada materi ini, kita sudah belajar tentang input element beserta tipe-tipenya, textarea untuk membuat teks multi-line, dan label element sebagai keterangan atau caption-nya.
+
+Seperti biasa, ada beberapa referensi yang dapat disimak untuk menambah pengetahuan
